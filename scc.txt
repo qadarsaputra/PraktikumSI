@@ -1,0 +1,73 @@
+
+amikom@Komputer-4 MINGW64 /d/22.12.2690/praktikumsi (master)
+$ git init
+Initialized empty Git repository in D:/22.12.2690/praktikumsi/.git/
+
+amikom@Komputer-4 MINGW64 /d/22.12.2690/praktikumsi (master)
+$ git config --global user.name "qadarsaputra"
+
+amikom@Komputer-4 MINGW64 /d/22.12.2690/praktikumsi (master)
+$ git config --global user.name "qadarsaputra@students.amikom.ac.id"
+
+amikom@Komputer-4 MINGW64 /d/22.12.2690/praktikumsi (master)
+$ git config --global user.email "qadarsaputra@students.amikom.ac.id"
+
+amikom@Komputer-4 MINGW64 /d/22.12.2690/praktikumsi (master)
+$ git config --global user.name "qadarsaputra"
+
+amikom@Komputer-4 MINGW64 /d/22.12.2690/praktikumsi (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=qadarsaputra
+user.email=qadarsaputra@students.amikom.ac.id
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+amikom@Komputer-4 MINGW64 /d/22.12.2690/praktikumsi (master)
+$ git init
+Reinitialized existing Git repository in D:/22.12.2690/praktikumsi/.git/
+
+amikom@Komputer-4 MINGW64 /d/22.12.2690/praktikumsi (master)
+$ git add .
+
+amikom@Komputer-4 MINGW64 /d/22.12.2690/praktikumsi (master)
+$ git remote add origin https://github.com/qadarsaputra/PraktikumSI.git
+
+amikom@Komputer-4 MINGW64 /d/22.12.2690/praktikumsi (master)
+$ git commit -m "first commit"
+[master (root-commit) 83ae15a] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 main.txt
+
+amikom@Komputer-4 MINGW64 /d/22.12.2690/praktikumsi (master)
+$ git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 232 bytes | 232.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/qadarsaputra/PraktikumSI.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+amikom@Komputer-4 MINGW64 /d/22.12.2690/praktikumsi (master)
+$ ^C
+
+amikom@Komputer-4 M
